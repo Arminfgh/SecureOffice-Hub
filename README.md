@@ -389,9 +389,9 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ## 📧 Contact
 
-- **Author**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: [@yourusername](https://github.com/yourusername)
+- **Author**: Armin Foroughi
+- **Email**: arfgh2002@gmail.com
+
 
 ---
 
