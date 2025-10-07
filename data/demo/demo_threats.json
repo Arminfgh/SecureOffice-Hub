@@ -1,0 +1,1733 @@
+[
+  {
+    "threat_id": "file_hash_0000",
+    "threat_type": "file_hash",
+    "value": "20ff2dfa95903aa1cf764300dce63bdb2c705f9f40392802bb2c5d8b7810f830",
+    "threat_level": "HIGH",
+    "confidence": 0.71,
+    "first_seen": "2025-10-05T02:22:05.059572",
+    "last_seen": "2025-10-05T07:22:05.059572",
+    "metadata": {
+      "country": "RU",
+      "tags": [
+        "botnet",
+        "phishing"
+      ],
+      "source": "PhishTank",
+      "malware_family": "Cobalt Strike"
+    }
+  },
+  {
+    "threat_id": "ip_address_0001",
+    "threat_type": "ip_address",
+    "value": "107.200.222.156",
+    "threat_level": "CRITICAL",
+    "confidence": 0.71,
+    "first_seen": "2025-10-03T02:22:05.059572",
+    "last_seen": "2025-10-04T04:22:05.059572",
+    "metadata": {
+      "country": "UA",
+      "tags": [
+        "malware",
+        "botnet",
+        "scanner"
+      ],
+      "source": "PhishTank"
+    }
+  },
+  {
+    "threat_id": "ip_address_0002",
+    "threat_type": "ip_address",
+    "value": "45.76.123.45",
+    "threat_level": "MEDIUM",
+    "confidence": 0.99,
+    "first_seen": "2025-09-26T02:22:05.059572",
+    "last_seen": "2025-09-26T13:22:05.059572",
+    "metadata": {
+      "country": "RU",
+      "tags": [
+        "c2",
+        "phishing",
+        "malware"
+      ],
+      "source": "PhishTank"
+    }
+  },
+  {
+    "threat_id": "ip_address_0003",
+    "threat_type": "ip_address",
+    "value": "203.0.113.89",
+    "threat_level": "CRITICAL",
+    "confidence": 0.78,
+    "first_seen": "2025-09-07T02:22:05.059572",
+    "last_seen": "2025-09-07T18:22:05.059572",
+    "metadata": {
+      "country": "UA",
+      "tags": [
+        "malware",
+        "botnet"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "url_0004",
+    "threat_type": "url",
+    "value": "https://secure-login-verify.ml/account",
+    "threat_level": "MEDIUM",
+    "confidence": 0.73,
+    "first_seen": "2025-09-30T02:22:05.059572",
+    "last_seen": "2025-09-30T07:22:05.059572",
+    "metadata": {
+      "country": "KP",
+      "tags": [
+        "c2",
+        "malware",
+        "scanner"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "file_hash_0005",
+    "threat_type": "file_hash",
+    "value": "a3f5b8c9d2e1f4a7b6c5d8e9f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0",
+    "threat_level": "HIGH",
+    "confidence": 0.98,
+    "first_seen": "2025-09-11T02:22:05.059572",
+    "last_seen": "2025-09-13T02:22:05.059572",
+    "metadata": {
+      "country": "IR",
+      "tags": [
+        "malware",
+        "c2"
+      ],
+      "source": "URLhaus",
+      "malware_family": "Cobalt Strike"
+    }
+  },
+  {
+    "threat_id": "file_hash_0006",
+    "threat_type": "file_hash",
+    "value": "0c3862994d15536eae774a6345ca069b884dfa4b7255f96e71a0ac3a71191b1c",
+    "threat_level": "MEDIUM",
+    "confidence": 0.73,
+    "first_seen": "2025-10-01T02:22:05.059572",
+    "last_seen": "2025-10-02T19:22:05.059572",
+    "metadata": {
+      "country": "RU",
+      "tags": [
+        "phishing",
+        "malware"
+      ],
+      "source": "AbuseIPDB",
+      "malware_family": "Ransomware"
+    }
+  },
+  {
+    "threat_id": "ip_address_0007",
+    "threat_type": "ip_address",
+    "value": "185.220.101.15",
+    "threat_level": "MEDIUM",
+    "confidence": 0.7,
+    "first_seen": "2025-09-06T02:22:05.059572",
+    "last_seen": "2025-09-07T03:22:05.059572",
+    "metadata": {
+      "country": "CN",
+      "tags": [
+        "c2"
+      ],
+      "source": "URLhaus"
+    }
+  },
+  {
+    "threat_id": "ip_address_0008",
+    "threat_type": "ip_address",
+    "value": "192.0.2.15",
+    "threat_level": "MEDIUM",
+    "confidence": 0.72,
+    "first_seen": "2025-09-10T02:22:05.059572",
+    "last_seen": "2025-09-11T11:22:05.059572",
+    "metadata": {
+      "country": "KP",
+      "tags": [
+        "scanner"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "ip_address_0009",
+    "threat_type": "ip_address",
+    "value": "198.51.100.42",
+    "threat_level": "HIGH",
+    "confidence": 0.94,
+    "first_seen": "2025-09-25T02:22:05.060570",
+    "last_seen": "2025-09-26T20:22:05.060570",
+    "metadata": {
+      "country": "RU",
+      "tags": [
+        "c2",
+        "botnet",
+        "phishing"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "url_0010",
+    "threat_type": "url",
+    "value": "https://secure-login-verify.ml/account",
+    "threat_level": "CRITICAL",
+    "confidence": 0.93,
+    "first_seen": "2025-09-26T02:22:05.060570",
+    "last_seen": "2025-09-27T10:22:05.060570",
+    "metadata": {
+      "country": "VN",
+      "tags": [
+        "botnet",
+        "phishing",
+        "scanner"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "file_hash_0011",
+    "threat_type": "file_hash",
+    "value": "bd924a28765626302933996a06ad2a667f0290ba78f660ffe34a8f8cf864cc2e",
+    "threat_level": "HIGH",
+    "confidence": 0.91,
+    "first_seen": "2025-09-07T02:22:05.060570",
+    "last_seen": "2025-09-08T01:22:05.060570",
+    "metadata": {
+      "country": "BR",
+      "tags": [
+        "scanner",
+        "botnet",
+        "malware"
+      ],
+      "source": "OTX",
+      "malware_family": "Ransomware"
+    }
+  },
+  {
+    "threat_id": "file_hash_0012",
+    "threat_type": "file_hash",
+    "value": "b4e6c9a0d3f2e5b7c8a6d9b1e4f3a5c7d8b0e1f4a6c9b2d5e7f8a1c3b6d9e0f2",
+    "threat_level": "LOW",
+    "confidence": 0.79,
+    "first_seen": "2025-09-07T02:22:05.060570",
+    "last_seen": "2025-09-07T12:22:05.060570",
+    "metadata": {
+      "country": "IR",
+      "tags": [
+        "scanner",
+        "c2"
+      ],
+      "source": "AbuseIPDB",
+      "malware_family": "Ransomware"
+    }
+  },
+  {
+    "threat_id": "url_0013",
+    "threat_type": "url",
+    "value": "https://secure-login-verify.ml/account",
+    "threat_level": "HIGH",
+    "confidence": 0.84,
+    "first_seen": "2025-09-07T02:22:05.060570",
+    "last_seen": "2025-09-08T03:22:05.060570",
+    "metadata": {
+      "country": "BR",
+      "tags": [
+        "scanner"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "domain_0014",
+    "threat_type": "domain",
+    "value": "phishing-site.ml",
+    "threat_level": "MEDIUM",
+    "confidence": 0.81,
+    "first_seen": "2025-09-23T02:22:05.060570",
+    "last_seen": "2025-09-24T11:22:05.060570",
+    "metadata": {
+      "country": "VN",
+      "tags": [
+        "botnet",
+        "c2"
+      ],
+      "source": "PhishTank"
+    }
+  },
+  {
+    "threat_id": "url_0015",
+    "threat_type": "url",
+    "value": "https://secure-login-verify.ml/account",
+    "threat_level": "MEDIUM",
+    "confidence": 0.63,
+    "first_seen": "2025-09-20T02:22:05.060570",
+    "last_seen": "2025-09-20T05:22:05.060570",
+    "metadata": {
+      "country": "VN",
+      "tags": [
+        "malware"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "url_0016",
+    "threat_type": "url",
+    "value": "http://malware-download.xyz/payload.exe",
+    "threat_level": "LOW",
+    "confidence": 0.56,
+    "first_seen": "2025-09-28T02:22:05.060570",
+    "last_seen": "2025-09-29T09:22:05.060570",
+    "metadata": {
+      "country": "CN",
+      "tags": [
+        "scanner",
+        "c2"
+      ],
+      "source": "PhishTank"
+    }
+  },
+  {
+    "threat_id": "url_0017",
+    "threat_type": "url",
+    "value": "http://malware-download.xyz/payload.exe",
+    "threat_level": "CRITICAL",
+    "confidence": 0.52,
+    "first_seen": "2025-09-14T02:22:05.060570",
+    "last_seen": "2025-09-15T00:22:05.060570",
+    "metadata": {
+      "country": "VN",
+      "tags": [
+        "botnet",
+        "c2",
+        "scanner"
+      ],
+      "source": "URLhaus"
+    }
+  },
+  {
+    "threat_id": "ip_address_0018",
+    "threat_type": "ip_address",
+    "value": "203.0.113.89",
+    "threat_level": "CRITICAL",
+    "confidence": 0.83,
+    "first_seen": "2025-09-12T02:22:05.060570",
+    "last_seen": "2025-09-13T01:22:05.060570",
+    "metadata": {
+      "country": "UA",
+      "tags": [
+        "malware"
+      ],
+      "source": "URLhaus"
+    }
+  },
+  {
+    "threat_id": "ip_address_0019",
+    "threat_type": "ip_address",
+    "value": "194.251.179.2",
+    "threat_level": "CRITICAL",
+    "confidence": 0.7,
+    "first_seen": "2025-09-08T02:22:05.060570",
+    "last_seen": "2025-09-09T19:22:05.060570",
+    "metadata": {
+      "country": "KP",
+      "tags": [
+        "scanner"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "domain_0020",
+    "threat_type": "domain",
+    "value": "paaoon.com",
+    "threat_level": "HIGH",
+    "confidence": 0.68,
+    "first_seen": "2025-09-22T02:22:05.060570",
+    "last_seen": "2025-09-22T23:22:05.060570",
+    "metadata": {
+      "country": "CN",
+      "tags": [
+        "scanner",
+        "botnet"
+      ],
+      "source": "PhishTank"
+    }
+  },
+  {
+    "threat_id": "url_0021",
+    "threat_type": "url",
+    "value": "http://malware-download.xyz/payload.exe",
+    "threat_level": "HIGH",
+    "confidence": 0.91,
+    "first_seen": "2025-09-17T02:22:05.060570",
+    "last_seen": "2025-09-18T01:22:05.060570",
+    "metadata": {
+      "country": "UA",
+      "tags": [
+        "botnet"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "domain_0022",
+    "threat_type": "domain",
+    "value": "secure-login-verify.ml",
+    "threat_level": "HIGH",
+    "confidence": 0.67,
+    "first_seen": "2025-09-22T02:22:05.060570",
+    "last_seen": "2025-09-22T04:22:05.060570",
+    "metadata": {
+      "country": "BR",
+      "tags": [
+        "c2",
+        "botnet",
+        "scanner"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "domain_0023",
+    "threat_type": "domain",
+    "value": "bank-verify.ga",
+    "threat_level": "MEDIUM",
+    "confidence": 0.79,
+    "first_seen": "2025-09-06T02:22:05.060570",
+    "last_seen": "2025-09-07T01:22:05.060570",
+    "metadata": {
+      "country": "VN",
+      "tags": [
+        "phishing",
+        "c2",
+        "malware"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "domain_0024",
+    "threat_type": "domain",
+    "value": "evil-cdn.ru",
+    "threat_level": "MEDIUM",
+    "confidence": 0.94,
+    "first_seen": "2025-10-01T02:22:05.060570",
+    "last_seen": "2025-10-02T17:22:05.060570",
+    "metadata": {
+      "country": "RU",
+      "tags": [
+        "scanner",
+        "c2"
+      ],
+      "source": "URLhaus"
+    }
+  },
+  {
+    "threat_id": "url_0025",
+    "threat_type": "url",
+    "value": "http://malware-download.xyz/payload.exe",
+    "threat_level": "HIGH",
+    "confidence": 0.77,
+    "first_seen": "2025-09-19T02:22:05.060570",
+    "last_seen": "2025-09-20T02:22:05.060570",
+    "metadata": {
+      "country": "KP",
+      "tags": [
+        "phishing"
+      ],
+      "source": "URLhaus"
+    }
+  },
+  {
+    "threat_id": "url_0026",
+    "threat_type": "url",
+    "value": "https://secure-login-verify.ml/account",
+    "threat_level": "HIGH",
+    "confidence": 0.53,
+    "first_seen": "2025-09-26T02:22:05.060570",
+    "last_seen": "2025-09-27T04:22:05.060570",
+    "metadata": {
+      "country": "VN",
+      "tags": [
+        "phishing",
+        "botnet",
+        "scanner"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "file_hash_0027",
+    "threat_type": "file_hash",
+    "value": "ebd5a5f1d8eb5f185aefeb40a83853535a28bc297f87ec74684e432163df65c0",
+    "threat_level": "MEDIUM",
+    "confidence": 0.6,
+    "first_seen": "2025-09-28T02:22:05.061568",
+    "last_seen": "2025-09-28T03:22:05.061568",
+    "metadata": {
+      "country": "VN",
+      "tags": [
+        "phishing"
+      ],
+      "source": "AbuseIPDB",
+      "malware_family": "Ransomware"
+    }
+  },
+  {
+    "threat_id": "ip_address_0028",
+    "threat_type": "ip_address",
+    "value": "45.76.123.45",
+    "threat_level": "CRITICAL",
+    "confidence": 1.0,
+    "first_seen": "2025-09-09T02:22:05.061568",
+    "last_seen": "2025-09-09T16:22:05.061568",
+    "metadata": {
+      "country": "UA",
+      "tags": [
+        "c2"
+      ],
+      "source": "PhishTank"
+    }
+  },
+  {
+    "threat_id": "ip_address_0029",
+    "threat_type": "ip_address",
+    "value": "198.51.100.42",
+    "threat_level": "MEDIUM",
+    "confidence": 0.53,
+    "first_seen": "2025-09-23T02:22:05.061568",
+    "last_seen": "2025-09-24T08:22:05.061568",
+    "metadata": {
+      "country": "IR",
+      "tags": [
+        "botnet",
+        "phishing"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "ip_address_0030",
+    "threat_type": "ip_address",
+    "value": "45.76.123.45",
+    "threat_level": "MEDIUM",
+    "confidence": 0.89,
+    "first_seen": "2025-10-06T02:22:05.061568",
+    "last_seen": "2025-10-07T02:22:05.061568",
+    "metadata": {
+      "country": "RU",
+      "tags": [
+        "scanner",
+        "malware",
+        "c2"
+      ],
+      "source": "URLhaus"
+    }
+  },
+  {
+    "threat_id": "file_hash_0031",
+    "threat_type": "file_hash",
+    "value": "c5f7d1a2e4b8c0d6e9a3f5b7c1d8e0a4f6b9c2d5e8a1f3b7c0d4e9a2f6b8c1d5",
+    "threat_level": "HIGH",
+    "confidence": 0.6,
+    "first_seen": "2025-09-12T02:22:05.061568",
+    "last_seen": "2025-09-14T00:22:05.061568",
+    "metadata": {
+      "country": "RU",
+      "tags": [
+        "scanner",
+        "c2",
+        "malware"
+      ],
+      "source": "URLhaus",
+      "malware_family": "Dridex"
+    }
+  },
+  {
+    "threat_id": "url_0032",
+    "threat_type": "url",
+    "value": "https://secure-login-verify.ml/account",
+    "threat_level": "MEDIUM",
+    "confidence": 0.93,
+    "first_seen": "2025-10-03T02:22:05.061568",
+    "last_seen": "2025-10-04T22:22:05.061568",
+    "metadata": {
+      "country": "IR",
+      "tags": [
+        "phishing",
+        "malware"
+      ],
+      "source": "PhishTank"
+    }
+  },
+  {
+    "threat_id": "ip_address_0033",
+    "threat_type": "ip_address",
+    "value": "192.0.2.15",
+    "threat_level": "HIGH",
+    "confidence": 0.64,
+    "first_seen": "2025-09-15T02:22:05.061568",
+    "last_seen": "2025-09-15T07:22:05.061568",
+    "metadata": {
+      "country": "VN",
+      "tags": [
+        "phishing",
+        "c2"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "file_hash_0034",
+    "threat_type": "file_hash",
+    "value": "c5f7d1a2e4b8c0d6e9a3f5b7c1d8e0a4f6b9c2d5e8a1f3b7c0d4e9a2f6b8c1d5",
+    "threat_level": "HIGH",
+    "confidence": 0.98,
+    "first_seen": "2025-10-05T02:22:05.061568",
+    "last_seen": "2025-10-05T18:22:05.061568",
+    "metadata": {
+      "country": "KP",
+      "tags": [
+        "scanner",
+        "phishing",
+        "botnet"
+      ],
+      "source": "OTX",
+      "malware_family": "Backdoor"
+    }
+  },
+  {
+    "threat_id": "url_0035",
+    "threat_type": "url",
+    "value": "http://paypa1-secure.tk/login",
+    "threat_level": "MEDIUM",
+    "confidence": 0.74,
+    "first_seen": "2025-10-05T02:22:05.061568",
+    "last_seen": "2025-10-06T05:22:05.061568",
+    "metadata": {
+      "country": "UA",
+      "tags": [
+        "botnet",
+        "c2"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "url_0036",
+    "threat_type": "url",
+    "value": "http://malware-download.xyz/payload.exe",
+    "threat_level": "HIGH",
+    "confidence": 0.62,
+    "first_seen": "2025-10-02T02:22:05.061568",
+    "last_seen": "2025-10-03T00:22:05.061568",
+    "metadata": {
+      "country": "VN",
+      "tags": [
+        "malware"
+      ],
+      "source": "URLhaus"
+    }
+  },
+  {
+    "threat_id": "file_hash_0037",
+    "threat_type": "file_hash",
+    "value": "b7670868b2f43d2f83e846f65fbb127870f1c810c17cca09e1a964f56a48ea31",
+    "threat_level": "MEDIUM",
+    "confidence": 0.96,
+    "first_seen": "2025-09-19T02:22:05.061568",
+    "last_seen": "2025-09-20T04:22:05.061568",
+    "metadata": {
+      "country": "IR",
+      "tags": [
+        "botnet",
+        "phishing",
+        "scanner"
+      ],
+      "source": "URLhaus",
+      "malware_family": "Qakbot"
+    }
+  },
+  {
+    "threat_id": "file_hash_0038",
+    "threat_type": "file_hash",
+    "value": "c5f7d1a2e4b8c0d6e9a3f5b7c1d8e0a4f6b9c2d5e8a1f3b7c0d4e9a2f6b8c1d5",
+    "threat_level": "MEDIUM",
+    "confidence": 0.66,
+    "first_seen": "2025-10-04T02:22:05.061568",
+    "last_seen": "2025-10-05T06:22:05.061568",
+    "metadata": {
+      "country": "VN",
+      "tags": [
+        "c2",
+        "malware",
+        "phishing"
+      ],
+      "source": "OTX",
+      "malware_family": "Cobalt Strike"
+    }
+  },
+  {
+    "threat_id": "domain_0039",
+    "threat_type": "domain",
+    "value": "paypa1-secure.tk",
+    "threat_level": "HIGH",
+    "confidence": 0.86,
+    "first_seen": "2025-09-07T02:22:05.061568",
+    "last_seen": "2025-09-07T05:22:05.061568",
+    "metadata": {
+      "country": "IR",
+      "tags": [
+        "malware",
+        "c2"
+      ],
+      "source": "URLhaus"
+    }
+  },
+  {
+    "threat_id": "file_hash_0040",
+    "threat_type": "file_hash",
+    "value": "c5f7d1a2e4b8c0d6e9a3f5b7c1d8e0a4f6b9c2d5e8a1f3b7c0d4e9a2f6b8c1d5",
+    "threat_level": "LOW",
+    "confidence": 0.79,
+    "first_seen": "2025-09-06T02:22:05.062571",
+    "last_seen": "2025-09-08T02:22:05.062571",
+    "metadata": {
+      "country": "KP",
+      "tags": [
+        "scanner"
+      ],
+      "source": "AbuseIPDB",
+      "malware_family": "Cobalt Strike"
+    }
+  },
+  {
+    "threat_id": "url_0041",
+    "threat_type": "url",
+    "value": "https://secure-login-verify.ml/account",
+    "threat_level": "HIGH",
+    "confidence": 0.62,
+    "first_seen": "2025-09-26T02:22:05.062571",
+    "last_seen": "2025-09-26T20:22:05.062571",
+    "metadata": {
+      "country": "IR",
+      "tags": [
+        "scanner"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "ip_address_0042",
+    "threat_type": "ip_address",
+    "value": "185.220.101.15",
+    "threat_level": "HIGH",
+    "confidence": 0.93,
+    "first_seen": "2025-09-14T02:22:05.062571",
+    "last_seen": "2025-09-15T18:22:05.062571",
+    "metadata": {
+      "country": "KP",
+      "tags": [
+        "c2",
+        "malware"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "domain_0043",
+    "threat_type": "domain",
+    "value": "pmzgvn.tk",
+    "threat_level": "HIGH",
+    "confidence": 0.65,
+    "first_seen": "2025-10-05T02:22:05.062571",
+    "last_seen": "2025-10-07T02:22:05.062571",
+    "metadata": {
+      "country": "UA",
+      "tags": [
+        "c2",
+        "scanner"
+      ],
+      "source": "PhishTank"
+    }
+  },
+  {
+    "threat_id": "url_0044",
+    "threat_type": "url",
+    "value": "http://evil-cdn.ru/update.js",
+    "threat_level": "MEDIUM",
+    "confidence": 0.71,
+    "first_seen": "2025-10-02T02:22:05.062571",
+    "last_seen": "2025-10-03T21:22:05.062571",
+    "metadata": {
+      "country": "BR",
+      "tags": [
+        "botnet",
+        "scanner"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "url_0045",
+    "threat_type": "url",
+    "value": "http://paypa1-secure.tk/login",
+    "threat_level": "MEDIUM",
+    "confidence": 0.62,
+    "first_seen": "2025-09-24T02:22:05.062571",
+    "last_seen": "2025-09-24T16:22:05.062571",
+    "metadata": {
+      "country": "IR",
+      "tags": [
+        "malware"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "file_hash_0046",
+    "threat_type": "file_hash",
+    "value": "c71bdb0cde419f2b17af81a58eb89455982144084929a253d6741c7a41b517c7",
+    "threat_level": "HIGH",
+    "confidence": 0.72,
+    "first_seen": "2025-09-14T02:22:05.062571",
+    "last_seen": "2025-09-15T18:22:05.062571",
+    "metadata": {
+      "country": "RU",
+      "tags": [
+        "phishing"
+      ],
+      "source": "OTX",
+      "malware_family": "TrickBot"
+    }
+  },
+  {
+    "threat_id": "domain_0047",
+    "threat_type": "domain",
+    "value": "yukutkz.ga",
+    "threat_level": "HIGH",
+    "confidence": 0.86,
+    "first_seen": "2025-09-28T02:22:05.062571",
+    "last_seen": "2025-09-28T13:22:05.062571",
+    "metadata": {
+      "country": "IR",
+      "tags": [
+        "malware",
+        "scanner",
+        "phishing"
+      ],
+      "source": "URLhaus"
+    }
+  },
+  {
+    "threat_id": "url_0048",
+    "threat_type": "url",
+    "value": "http://evil-cdn.ru/update.js",
+    "threat_level": "HIGH",
+    "confidence": 0.51,
+    "first_seen": "2025-09-30T02:22:05.062571",
+    "last_seen": "2025-10-01T16:22:05.062571",
+    "metadata": {
+      "country": "VN",
+      "tags": [
+        "c2"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "ip_address_0049",
+    "threat_type": "ip_address",
+    "value": "185.220.101.15",
+    "threat_level": "MEDIUM",
+    "confidence": 0.95,
+    "first_seen": "2025-09-21T02:22:05.062571",
+    "last_seen": "2025-09-21T09:22:05.062571",
+    "metadata": {
+      "country": "IR",
+      "tags": [
+        "phishing",
+        "c2",
+        "malware"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "file_hash_0050",
+    "threat_type": "file_hash",
+    "value": "e8ba3f23d0e42b5b61bb83315a1c2c98a1281272bd2fe872c3bcfee7688be662",
+    "threat_level": "MEDIUM",
+    "confidence": 0.52,
+    "first_seen": "2025-09-27T02:22:05.062571",
+    "last_seen": "2025-09-27T16:22:05.062571",
+    "metadata": {
+      "country": "UA",
+      "tags": [
+        "malware",
+        "c2"
+      ],
+      "source": "OTX",
+      "malware_family": "Ransomware"
+    }
+  },
+  {
+    "threat_id": "domain_0051",
+    "threat_type": "domain",
+    "value": "evil-cdn.ru",
+    "threat_level": "CRITICAL",
+    "confidence": 0.83,
+    "first_seen": "2025-09-23T02:22:05.062571",
+    "last_seen": "2025-09-24T00:22:05.062571",
+    "metadata": {
+      "country": "KP",
+      "tags": [
+        "malware"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "url_0052",
+    "threat_type": "url",
+    "value": "https://secure-login-verify.ml/account",
+    "threat_level": "HIGH",
+    "confidence": 0.55,
+    "first_seen": "2025-09-18T02:22:05.062571",
+    "last_seen": "2025-09-19T05:22:05.062571",
+    "metadata": {
+      "country": "UA",
+      "tags": [
+        "c2",
+        "phishing",
+        "scanner"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "ip_address_0053",
+    "threat_type": "ip_address",
+    "value": "91.219.237.26",
+    "threat_level": "MEDIUM",
+    "confidence": 0.68,
+    "first_seen": "2025-09-10T02:22:05.062571",
+    "last_seen": "2025-09-11T14:22:05.062571",
+    "metadata": {
+      "country": "VN",
+      "tags": [
+        "malware",
+        "scanner"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "domain_0054",
+    "threat_type": "domain",
+    "value": "bciqrfm.com",
+    "threat_level": "LOW",
+    "confidence": 0.94,
+    "first_seen": "2025-10-04T02:22:05.062571",
+    "last_seen": "2025-10-04T15:22:05.062571",
+    "metadata": {
+      "country": "KP",
+      "tags": [
+        "phishing",
+        "malware",
+        "scanner"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "ip_address_0055",
+    "threat_type": "ip_address",
+    "value": "198.51.100.42",
+    "threat_level": "CRITICAL",
+    "confidence": 0.66,
+    "first_seen": "2025-09-21T02:22:05.062571",
+    "last_seen": "2025-09-22T12:22:05.062571",
+    "metadata": {
+      "country": "VN",
+      "tags": [
+        "phishing"
+      ],
+      "source": "PhishTank"
+    }
+  },
+  {
+    "threat_id": "domain_0056",
+    "threat_type": "domain",
+    "value": "evil-cdn.ru",
+    "threat_level": "CRITICAL",
+    "confidence": 0.66,
+    "first_seen": "2025-10-05T02:22:05.062571",
+    "last_seen": "2025-10-05T20:22:05.062571",
+    "metadata": {
+      "country": "RU",
+      "tags": [
+        "scanner",
+        "c2"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "url_0057",
+    "threat_type": "url",
+    "value": "http://evil-cdn.ru/update.js",
+    "threat_level": "HIGH",
+    "confidence": 0.94,
+    "first_seen": "2025-09-27T02:22:05.063572",
+    "last_seen": "2025-09-29T00:22:05.063572",
+    "metadata": {
+      "country": "VN",
+      "tags": [
+        "scanner",
+        "malware"
+      ],
+      "source": "PhishTank"
+    }
+  },
+  {
+    "threat_id": "url_0058",
+    "threat_type": "url",
+    "value": "http://malware-download.xyz/payload.exe",
+    "threat_level": "HIGH",
+    "confidence": 0.94,
+    "first_seen": "2025-09-16T02:22:05.063572",
+    "last_seen": "2025-09-17T17:22:05.063572",
+    "metadata": {
+      "country": "VN",
+      "tags": [
+        "phishing",
+        "scanner",
+        "malware"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "domain_0059",
+    "threat_type": "domain",
+    "value": "secure-login-verify.ml",
+    "threat_level": "MEDIUM",
+    "confidence": 0.77,
+    "first_seen": "2025-10-05T02:22:05.063572",
+    "last_seen": "2025-10-06T16:22:05.063572",
+    "metadata": {
+      "country": "CN",
+      "tags": [
+        "botnet",
+        "scanner"
+      ],
+      "source": "URLhaus"
+    }
+  },
+  {
+    "threat_id": "url_0060",
+    "threat_type": "url",
+    "value": "http://paypa1-secure.tk/login",
+    "threat_level": "MEDIUM",
+    "confidence": 0.91,
+    "first_seen": "2025-10-01T02:22:05.063572",
+    "last_seen": "2025-10-02T17:22:05.063572",
+    "metadata": {
+      "country": "IR",
+      "tags": [
+        "scanner",
+        "phishing"
+      ],
+      "source": "URLhaus"
+    }
+  },
+  {
+    "threat_id": "domain_0061",
+    "threat_type": "domain",
+    "value": "paypa1-secure.tk",
+    "threat_level": "MEDIUM",
+    "confidence": 0.87,
+    "first_seen": "2025-09-18T02:22:05.063572",
+    "last_seen": "2025-09-19T13:22:05.063572",
+    "metadata": {
+      "country": "RU",
+      "tags": [
+        "malware",
+        "c2",
+        "scanner"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "file_hash_0062",
+    "threat_type": "file_hash",
+    "value": "c5f7d1a2e4b8c0d6e9a3f5b7c1d8e0a4f6b9c2d5e8a1f3b7c0d4e9a2f6b8c1d5",
+    "threat_level": "LOW",
+    "confidence": 0.56,
+    "first_seen": "2025-09-15T02:22:05.063572",
+    "last_seen": "2025-09-16T19:22:05.063572",
+    "metadata": {
+      "country": "BR",
+      "tags": [
+        "c2"
+      ],
+      "source": "PhishTank",
+      "malware_family": "TrickBot"
+    }
+  },
+  {
+    "threat_id": "domain_0063",
+    "threat_type": "domain",
+    "value": "secure-login-verify.ml",
+    "threat_level": "HIGH",
+    "confidence": 0.63,
+    "first_seen": "2025-09-15T02:22:05.063572",
+    "last_seen": "2025-09-15T16:22:05.063572",
+    "metadata": {
+      "country": "VN",
+      "tags": [
+        "phishing",
+        "botnet",
+        "scanner"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "file_hash_0064",
+    "threat_type": "file_hash",
+    "value": "c5f7d1a2e4b8c0d6e9a3f5b7c1d8e0a4f6b9c2d5e8a1f3b7c0d4e9a2f6b8c1d5",
+    "threat_level": "HIGH",
+    "confidence": 0.71,
+    "first_seen": "2025-09-22T02:22:05.063572",
+    "last_seen": "2025-09-23T15:22:05.063572",
+    "metadata": {
+      "country": "CN",
+      "tags": [
+        "c2",
+        "phishing",
+        "botnet"
+      ],
+      "source": "AbuseIPDB",
+      "malware_family": "Qakbot"
+    }
+  },
+  {
+    "threat_id": "domain_0065",
+    "threat_type": "domain",
+    "value": "bank-verify.ga",
+    "threat_level": "LOW",
+    "confidence": 0.59,
+    "first_seen": "2025-09-28T02:22:05.063572",
+    "last_seen": "2025-09-28T20:22:05.063572",
+    "metadata": {
+      "country": "BR",
+      "tags": [
+        "c2",
+        "malware"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "file_hash_0066",
+    "threat_type": "file_hash",
+    "value": "c5f7d1a2e4b8c0d6e9a3f5b7c1d8e0a4f6b9c2d5e8a1f3b7c0d4e9a2f6b8c1d5",
+    "threat_level": "MEDIUM",
+    "confidence": 0.76,
+    "first_seen": "2025-09-28T02:22:05.063572",
+    "last_seen": "2025-09-28T08:22:05.063572",
+    "metadata": {
+      "country": "RU",
+      "tags": [
+        "malware",
+        "botnet"
+      ],
+      "source": "OTX",
+      "malware_family": "Qakbot"
+    }
+  },
+  {
+    "threat_id": "url_0067",
+    "threat_type": "url",
+    "value": "https://secure-login-verify.ml/account",
+    "threat_level": "MEDIUM",
+    "confidence": 0.89,
+    "first_seen": "2025-09-14T02:22:05.063572",
+    "last_seen": "2025-09-16T02:22:05.063572",
+    "metadata": {
+      "country": "CN",
+      "tags": [
+        "phishing",
+        "scanner",
+        "c2"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "file_hash_0068",
+    "threat_type": "file_hash",
+    "value": "8a377a5817f8f4d9e1f011e0ece445b9372b932328ec6847e04fd517eba46187",
+    "threat_level": "MEDIUM",
+    "confidence": 0.88,
+    "first_seen": "2025-09-28T02:22:05.063572",
+    "last_seen": "2025-09-29T20:22:05.063572",
+    "metadata": {
+      "country": "UA",
+      "tags": [
+        "malware",
+        "botnet",
+        "scanner"
+      ],
+      "source": "URLhaus",
+      "malware_family": "TrickBot"
+    }
+  },
+  {
+    "threat_id": "url_0069",
+    "threat_type": "url",
+    "value": "http://evil-cdn.ru/update.js",
+    "threat_level": "HIGH",
+    "confidence": 0.89,
+    "first_seen": "2025-09-14T02:22:05.063572",
+    "last_seen": "2025-09-15T22:22:05.063572",
+    "metadata": {
+      "country": "RU",
+      "tags": [
+        "c2"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "url_0070",
+    "threat_type": "url",
+    "value": "http://malware-download.xyz/payload.exe",
+    "threat_level": "LOW",
+    "confidence": 0.91,
+    "first_seen": "2025-09-07T02:22:05.063572",
+    "last_seen": "2025-09-07T10:22:05.063572",
+    "metadata": {
+      "country": "CN",
+      "tags": [
+        "c2",
+        "malware"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "domain_0071",
+    "threat_type": "domain",
+    "value": "ljgmuaqj.ga",
+    "threat_level": "HIGH",
+    "confidence": 0.69,
+    "first_seen": "2025-09-23T02:22:05.063572",
+    "last_seen": "2025-09-24T11:22:05.063572",
+    "metadata": {
+      "country": "VN",
+      "tags": [
+        "botnet"
+      ],
+      "source": "PhishTank"
+    }
+  },
+  {
+    "threat_id": "url_0072",
+    "threat_type": "url",
+    "value": "http://evil-cdn.ru/update.js",
+    "threat_level": "MEDIUM",
+    "confidence": 0.97,
+    "first_seen": "2025-09-13T02:22:05.063572",
+    "last_seen": "2025-09-14T03:22:05.063572",
+    "metadata": {
+      "country": "KP",
+      "tags": [
+        "malware",
+        "c2",
+        "scanner"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "domain_0073",
+    "threat_type": "domain",
+    "value": "evil-cdn.ru",
+    "threat_level": "LOW",
+    "confidence": 0.66,
+    "first_seen": "2025-10-02T02:22:05.063572",
+    "last_seen": "2025-10-03T12:22:05.063572",
+    "metadata": {
+      "country": "CN",
+      "tags": [
+        "phishing",
+        "scanner",
+        "malware"
+      ],
+      "source": "URLhaus"
+    }
+  },
+  {
+    "threat_id": "file_hash_0074",
+    "threat_type": "file_hash",
+    "value": "b4e6c9a0d3f2e5b7c8a6d9b1e4f3a5c7d8b0e1f4a6c9b2d5e7f8a1c3b6d9e0f2",
+    "threat_level": "HIGH",
+    "confidence": 0.53,
+    "first_seen": "2025-10-02T02:22:05.064571",
+    "last_seen": "2025-10-03T02:22:05.064571",
+    "metadata": {
+      "country": "IR",
+      "tags": [
+        "botnet",
+        "malware",
+        "c2"
+      ],
+      "source": "PhishTank",
+      "malware_family": "Trojan"
+    }
+  },
+  {
+    "threat_id": "url_0075",
+    "threat_type": "url",
+    "value": "https://secure-login-verify.ml/account",
+    "threat_level": "LOW",
+    "confidence": 0.63,
+    "first_seen": "2025-09-22T02:22:05.064571",
+    "last_seen": "2025-09-22T21:22:05.064571",
+    "metadata": {
+      "country": "RU",
+      "tags": [
+        "malware"
+      ],
+      "source": "PhishTank"
+    }
+  },
+  {
+    "threat_id": "domain_0076",
+    "threat_type": "domain",
+    "value": "evil-cdn.ru",
+    "threat_level": "MEDIUM",
+    "confidence": 0.51,
+    "first_seen": "2025-10-05T02:22:05.064571",
+    "last_seen": "2025-10-05T12:22:05.064571",
+    "metadata": {
+      "country": "CN",
+      "tags": [
+        "c2",
+        "malware",
+        "scanner"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "ip_address_0077",
+    "threat_type": "ip_address",
+    "value": "198.51.100.42",
+    "threat_level": "HIGH",
+    "confidence": 0.89,
+    "first_seen": "2025-09-13T02:22:05.064571",
+    "last_seen": "2025-09-15T01:22:05.064571",
+    "metadata": {
+      "country": "RU",
+      "tags": [
+        "scanner"
+      ],
+      "source": "URLhaus"
+    }
+  },
+  {
+    "threat_id": "url_0078",
+    "threat_type": "url",
+    "value": "http://malware-download.xyz/payload.exe",
+    "threat_level": "LOW",
+    "confidence": 0.76,
+    "first_seen": "2025-09-22T02:22:05.064571",
+    "last_seen": "2025-09-22T23:22:05.064571",
+    "metadata": {
+      "country": "RU",
+      "tags": [
+        "malware",
+        "c2",
+        "botnet"
+      ],
+      "source": "PhishTank"
+    }
+  },
+  {
+    "threat_id": "ip_address_0079",
+    "threat_type": "ip_address",
+    "value": "198.51.100.42",
+    "threat_level": "CRITICAL",
+    "confidence": 0.83,
+    "first_seen": "2025-09-11T02:22:05.064571",
+    "last_seen": "2025-09-12T22:22:05.064571",
+    "metadata": {
+      "country": "CN",
+      "tags": [
+        "botnet",
+        "c2",
+        "scanner"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "url_0080",
+    "threat_type": "url",
+    "value": "https://secure-login-verify.ml/account",
+    "threat_level": "CRITICAL",
+    "confidence": 0.71,
+    "first_seen": "2025-09-10T02:22:05.064571",
+    "last_seen": "2025-09-10T19:22:05.064571",
+    "metadata": {
+      "country": "RU",
+      "tags": [
+        "botnet"
+      ],
+      "source": "PhishTank"
+    }
+  },
+  {
+    "threat_id": "domain_0081",
+    "threat_type": "domain",
+    "value": "malware-download.xyz",
+    "threat_level": "HIGH",
+    "confidence": 0.53,
+    "first_seen": "2025-09-22T02:22:05.064571",
+    "last_seen": "2025-09-22T18:22:05.064571",
+    "metadata": {
+      "country": "IR",
+      "tags": [
+        "c2"
+      ],
+      "source": "URLhaus"
+    }
+  },
+  {
+    "threat_id": "ip_address_0082",
+    "threat_type": "ip_address",
+    "value": "98.63.165.59",
+    "threat_level": "CRITICAL",
+    "confidence": 0.85,
+    "first_seen": "2025-09-29T02:22:05.064571",
+    "last_seen": "2025-09-30T09:22:05.064571",
+    "metadata": {
+      "country": "IR",
+      "tags": [
+        "malware",
+        "phishing",
+        "c2"
+      ],
+      "source": "PhishTank"
+    }
+  },
+  {
+    "threat_id": "url_0083",
+    "threat_type": "url",
+    "value": "https://secure-login-verify.ml/account",
+    "threat_level": "LOW",
+    "confidence": 0.55,
+    "first_seen": "2025-10-04T02:22:05.064571",
+    "last_seen": "2025-10-05T01:22:05.064571",
+    "metadata": {
+      "country": "BR",
+      "tags": [
+        "malware"
+      ],
+      "source": "URLhaus"
+    }
+  },
+  {
+    "threat_id": "url_0084",
+    "threat_type": "url",
+    "value": "http://malware-download.xyz/payload.exe",
+    "threat_level": "LOW",
+    "confidence": 0.7,
+    "first_seen": "2025-09-26T02:22:05.064571",
+    "last_seen": "2025-09-26T03:22:05.064571",
+    "metadata": {
+      "country": "RU",
+      "tags": [
+        "malware"
+      ],
+      "source": "PhishTank"
+    }
+  },
+  {
+    "threat_id": "domain_0085",
+    "threat_type": "domain",
+    "value": "nllrqak.cn",
+    "threat_level": "HIGH",
+    "confidence": 0.73,
+    "first_seen": "2025-09-13T02:22:05.064571",
+    "last_seen": "2025-09-15T01:22:05.064571",
+    "metadata": {
+      "country": "CN",
+      "tags": [
+        "scanner",
+        "c2",
+        "malware"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "file_hash_0086",
+    "threat_type": "file_hash",
+    "value": "02a2ff02fe1f2658f46a5bdfcb3f6daeb33c1aaf8591b50c22ca70f6b40fec16",
+    "threat_level": "HIGH",
+    "confidence": 0.75,
+    "first_seen": "2025-10-04T02:22:05.064571",
+    "last_seen": "2025-10-04T05:22:05.064571",
+    "metadata": {
+      "country": "UA",
+      "tags": [
+        "phishing"
+      ],
+      "source": "AbuseIPDB",
+      "malware_family": "Backdoor"
+    }
+  },
+  {
+    "threat_id": "domain_0087",
+    "threat_type": "domain",
+    "value": "evil-cdn.ru",
+    "threat_level": "HIGH",
+    "confidence": 0.63,
+    "first_seen": "2025-10-01T02:22:05.064571",
+    "last_seen": "2025-10-02T13:22:05.064571",
+    "metadata": {
+      "country": "RU",
+      "tags": [
+        "c2",
+        "scanner",
+        "botnet"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "file_hash_0088",
+    "threat_type": "file_hash",
+    "value": "092b069465e31ef3c2462e91c4b027ebbd19f11324e562deb79cd4e4707eb886",
+    "threat_level": "HIGH",
+    "confidence": 0.89,
+    "first_seen": "2025-09-11T02:22:05.064571",
+    "last_seen": "2025-09-11T22:22:05.064571",
+    "metadata": {
+      "country": "UA",
+      "tags": [
+        "phishing",
+        "malware"
+      ],
+      "source": "OTX",
+      "malware_family": "Emotet"
+    }
+  },
+  {
+    "threat_id": "file_hash_0089",
+    "threat_type": "file_hash",
+    "value": "054d6103516035b64e66c78f089fc37b5a1ea1df40cf92a657d2a7b135397abe",
+    "threat_level": "MEDIUM",
+    "confidence": 0.75,
+    "first_seen": "2025-09-20T02:22:05.064571",
+    "last_seen": "2025-09-21T07:22:05.064571",
+    "metadata": {
+      "country": "KP",
+      "tags": [
+        "botnet"
+      ],
+      "source": "OTX",
+      "malware_family": "Qakbot"
+    }
+  },
+  {
+    "threat_id": "ip_address_0090",
+    "threat_type": "ip_address",
+    "value": "102.56.143.214",
+    "threat_level": "MEDIUM",
+    "confidence": 0.99,
+    "first_seen": "2025-09-27T02:22:05.065571",
+    "last_seen": "2025-09-28T17:22:05.065571",
+    "metadata": {
+      "country": "CN",
+      "tags": [
+        "c2",
+        "scanner"
+      ],
+      "source": "PhishTank"
+    }
+  },
+  {
+    "threat_id": "url_0091",
+    "threat_type": "url",
+    "value": "http://paypa1-secure.tk/login",
+    "threat_level": "LOW",
+    "confidence": 0.73,
+    "first_seen": "2025-09-23T02:22:05.065571",
+    "last_seen": "2025-09-24T21:22:05.065571",
+    "metadata": {
+      "country": "CN",
+      "tags": [
+        "phishing",
+        "malware",
+        "scanner"
+      ],
+      "source": "PhishTank"
+    }
+  },
+  {
+    "threat_id": "domain_0092",
+    "threat_type": "domain",
+    "value": "ilhnrkzpvtz.com",
+    "threat_level": "HIGH",
+    "confidence": 0.76,
+    "first_seen": "2025-09-18T02:22:05.065571",
+    "last_seen": "2025-09-19T02:22:05.065571",
+    "metadata": {
+      "country": "IR",
+      "tags": [
+        "botnet",
+        "phishing",
+        "c2"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "url_0093",
+    "threat_type": "url",
+    "value": "https://secure-login-verify.ml/account",
+    "threat_level": "HIGH",
+    "confidence": 0.51,
+    "first_seen": "2025-09-17T02:22:05.065571",
+    "last_seen": "2025-09-18T15:22:05.065571",
+    "metadata": {
+      "country": "CN",
+      "tags": [
+        "botnet"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "file_hash_0094",
+    "threat_type": "file_hash",
+    "value": "a3f5b8c9d2e1f4a7b6c5d8e9f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0",
+    "threat_level": "LOW",
+    "confidence": 0.89,
+    "first_seen": "2025-09-24T02:22:05.065571",
+    "last_seen": "2025-09-25T20:22:05.065571",
+    "metadata": {
+      "country": "BR",
+      "tags": [
+        "botnet",
+        "malware"
+      ],
+      "source": "URLhaus",
+      "malware_family": "Backdoor"
+    }
+  },
+  {
+    "threat_id": "domain_0095",
+    "threat_type": "domain",
+    "value": "secure-login-verify.ml",
+    "threat_level": "CRITICAL",
+    "confidence": 0.83,
+    "first_seen": "2025-10-06T02:22:05.065571",
+    "last_seen": "2025-10-07T04:22:05.065571",
+    "metadata": {
+      "country": "VN",
+      "tags": [
+        "malware",
+        "scanner"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "domain_0096",
+    "threat_type": "domain",
+    "value": "bank-verify.ga",
+    "threat_level": "MEDIUM",
+    "confidence": 0.95,
+    "first_seen": "2025-09-19T02:22:05.065571",
+    "last_seen": "2025-09-20T18:22:05.065571",
+    "metadata": {
+      "country": "KP",
+      "tags": [
+        "scanner",
+        "c2",
+        "phishing"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "domain_0097",
+    "threat_type": "domain",
+    "value": "olkoknrux.ru",
+    "threat_level": "LOW",
+    "confidence": 0.53,
+    "first_seen": "2025-09-16T02:22:05.065571",
+    "last_seen": "2025-09-17T06:22:05.065571",
+    "metadata": {
+      "country": "KP",
+      "tags": [
+        "c2"
+      ],
+      "source": "OTX"
+    }
+  },
+  {
+    "threat_id": "url_0098",
+    "threat_type": "url",
+    "value": "http://evil-cdn.ru/update.js",
+    "threat_level": "MEDIUM",
+    "confidence": 0.65,
+    "first_seen": "2025-09-18T02:22:05.065571",
+    "last_seen": "2025-09-18T10:22:05.065571",
+    "metadata": {
+      "country": "IR",
+      "tags": [
+        "phishing",
+        "botnet",
+        "c2"
+      ],
+      "source": "AbuseIPDB"
+    }
+  },
+  {
+    "threat_id": "file_hash_0099",
+    "threat_type": "file_hash",
+    "value": "c5f7d1a2e4b8c0d6e9a3f5b7c1d8e0a4f6b9c2d5e8a1f3b7c0d4e9a2f6b8c1d5",
+    "threat_level": "MEDIUM",
+    "confidence": 0.97,
+    "first_seen": "2025-09-30T02:22:05.065571",
+    "last_seen": "2025-10-01T15:22:05.065571",
+    "metadata": {
+      "country": "KP",
+      "tags": [
+        "scanner",
+        "botnet",
+        "malware"
+      ],
+      "source": "PhishTank",
+      "malware_family": "Qakbot"
+    }
+  }
+]

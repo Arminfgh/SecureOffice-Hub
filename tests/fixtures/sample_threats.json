@@ -1,0 +1,214 @@
+{
+  "threats": [
+    {
+      "threat_id": "url_phishing_001",
+      "threat_type": "url",
+      "value": "http://paypa1-secure.tk/login",
+      "threat_level": "CRITICAL",
+      "confidence": 0.94,
+      "first_seen": "2024-01-15T10:30:00Z",
+      "last_seen": "2024-01-15T12:45:00Z",
+      "metadata": {
+        "typosquatting": true,
+        "suspicious_tld": true,
+        "tags": ["phishing", "financial"],
+        "target": "PayPal"
+      }
+    },
+    {
+      "threat_id": "ip_malware_001",
+      "threat_type": "ip_address",
+      "value": "45.76.123.45",
+      "threat_level": "HIGH",
+      "confidence": 0.88,
+      "first_seen": "2024-01-14T08:15:00Z",
+      "last_seen": "2024-01-15T14:20:00Z",
+      "metadata": {
+        "country": "RU",
+        "asn": "AS12345",
+        "tags": ["botnet", "c2"],
+        "abuse_reports": 47
+      }
+    },
+    {
+      "threat_id": "hash_malware_001",
+      "threat_type": "file_hash",
+      "value": "a3f5b8c9d2e1f4a7b6c5d8e9f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0",
+      "threat_level": "CRITICAL",
+      "confidence": 0.92,
+      "first_seen": "2024-01-13T16:45:00Z",
+      "last_seen": "2024-01-15T11:30:00Z",
+      "metadata": {
+        "hash_type": "sha256",
+        "malware_family": "Emotet",
+        "tags": ["malware", "trojan"],
+        "file_type": "executable"
+      }
+    },
+    {
+      "threat_id": "domain_malware_001",
+      "threat_type": "domain",
+      "value": "evil-cdn.ru",
+      "threat_level": "HIGH",
+      "confidence": 0.85,
+      "first_seen": "2024-01-12T14:20:00Z",
+      "last_seen": "2024-01-15T09:15:00Z",
+      "metadata": {
+        "country": "RU",
+        "tags": ["malware", "distribution"],
+        "hosting": "bulletproof"
+      }
+    },
+    {
+      "threat_id": "email_phishing_001",
+      "threat_type": "email",
+      "value": "security@paypa1-verify.com",
+      "threat_level": "MEDIUM",
+      "confidence": 0.78,
+      "first_seen": "2024-01-15T07:30:00Z",
+      "last_seen": "2024-01-15T13:45:00Z",
+      "metadata": {
+        "tags": ["phishing", "email"],
+        "spoofed": true,
+        "target": "PayPal"
+      }
+    },
+    {
+      "threat_id": "cve_exploit_001",
+      "threat_type": "cve",
+      "value": "CVE-2024-1234",
+      "threat_level": "CRITICAL",
+      "confidence": 1.0,
+      "first_seen": "2024-01-10T00:00:00Z",
+      "last_seen": "2024-01-15T15:00:00Z",
+      "metadata": {
+        "cvss_score": 9.8,
+        "tags": ["zero-day", "rce"],
+        "affected_software": "Example Software 1.0"
+      }
+    },
+    {
+      "threat_id": "campaign_apt_001",
+      "threat_type": "campaign",
+      "value": "APT-2024-001",
+      "threat_level": "CRITICAL",
+      "confidence": 0.89,
+      "first_seen": "2024-01-01T00:00:00Z",
+      "last_seen": "2024-01-15T16:00:00Z",
+      "metadata": {
+        "threat_actor": "APT28",
+        "tags": ["apt", "espionage"],
+        "sectors": ["finance", "healthcare"],
+        "total_iocs": 156
+      }
+    },
+    {
+      "threat_id": "url_malware_001",
+      "threat_type": "url",
+      "value": "http://malware-download.xyz/payload.exe",
+      "threat_level": "HIGH",
+      "confidence": 0.91,
+      "first_seen": "2024-01-14T11:20:00Z",
+      "last_seen": "2024-01-15T10:45:00Z",
+      "metadata": {
+        "tags": ["malware", "download"],
+        "file_type": "executable",
+        "malware_family": "TrickBot"
+      }
+    },
+    {
+      "threat_id": "ip_scanner_001",
+      "threat_type": "ip_address",
+      "value": "192.0.2.15",
+      "threat_level": "MEDIUM",
+      "confidence": 0.72,
+      "first_seen": "2024-01-15T06:00:00Z",
+      "last_seen": "2024-01-15T12:00:00Z",
+      "metadata": {
+        "country": "CN",
+        "tags": ["scanner", "reconnaissance"],
+        "ports_scanned": [22, 80, 443, 3389]
+      }
+    },
+    {
+      "threat_id": "domain_phishing_001",
+      "threat_type": "domain",
+      "value": "secure-login-verify.ml",
+      "threat_level": "MEDIUM",
+      "confidence": 0.80,
+      "first_seen": "2024-01-14T15:30:00Z",
+      "last_seen": "2024-01-15T11:00:00Z",
+      "metadata": {
+        "tags": ["phishing", "credential-harvesting"],
+        "suspicious_tld": true,
+        "recently_registered": true
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "ip_malware_001",
+      "target_id": "domain_malware_001",
+      "relation_type": "hosts",
+      "confidence": 0.95
+    },
+    {
+      "source_id": "domain_malware_001",
+      "target_id": "url_malware_001",
+      "relation_type": "contains",
+      "confidence": 0.90
+    },
+    {
+      "source_id": "url_malware_001",
+      "target_id": "hash_malware_001",
+      "relation_type": "drops",
+      "confidence": 0.92
+    },
+    {
+      "source_id": "hash_malware_001",
+      "target_id": "ip_malware_001",
+      "relation_type": "communicates_with",
+      "confidence": 0.88
+    },
+    {
+      "source_id": "campaign_apt_001",
+      "target_id": "url_phishing_001",
+      "relation_type": "uses",
+      "confidence": 0.85
+    },
+    {
+      "source_id": "campaign_apt_001",
+      "target_id": "domain_malware_001",
+      "relation_type": "uses",
+      "confidence": 0.87
+    },
+    {
+      "source_id": "url_phishing_001",
+      "target_id": "email_phishing_001",
+      "relation_type": "related_to",
+      "confidence": 0.80
+    }
+  ],
+  "campaigns": [
+    {
+      "campaign_id": "campaign_apt_001",
+      "name": "Operation Dark Web",
+      "threat_actor": "APT28",
+      "attack_pattern": "Spear Phishing + Malware",
+      "total_iocs": 156,
+      "first_seen": "2024-01-01T00:00:00Z",
+      "is_active": true,
+      "affected_sectors": ["Finance", "Healthcare", "Government"]
+    },
+    {
+      "campaign_id": "campaign_phish_001",
+      "name": "PayPal Phishing Wave",
+      "threat_actor": "Unknown",
+      "attack_pattern": "Typosquatting + Credential Harvesting",
+      "total_iocs": 89,
+      "first_seen": "2024-01-15T00:00:00Z",
+      "is_active": true,
+      "affected_sectors": ["E-commerce", "Banking"]
+    }
+  ]
+}

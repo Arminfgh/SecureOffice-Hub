@@ -1,0 +1,106 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:14-alpine
+    container_name: threatscope-db
+    environment:
+      POSTGRES_USER: threatscope
+      POSTGRES_PASSWORD: threatscope_secure_password
+      POSTGRES_DB: threatscope
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U threatscope"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: threatscope-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # FastAPI Backend
+  api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: threatscope-api
+    command: uvicorn src.api.main:app --host 0.0.0.0 --port 8000 --reload
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql://threatscope:threatscope_secure_password@postgres:5432/threatscope
+      REDIS_URL: redis://redis:6379/0
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      ABUSEIPDB_API_KEY: ${ABUSEIPDB_API_KEY}
+      ALIENVAULT_OTX_API_KEY: ${ALIENVAULT_OTX_API_KEY}
+    volumes:
+      - ./src:/app/src
+      - ./data:/app/data
+      - ./logs:/app/logs
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  # Streamlit Dashboard
+  dashboard:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: threatscope-dashboard
+    command: streamlit run src/dashboard/app.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8501:8501"
+    environment:
+      API_BASE_URL: http://api:8000
+    volumes:
+      - ./src:/app/src
+    depends_on:
+      - api
+
+  # Threat Feed Collector (Background Worker)
+  collector:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: threatscope-collector
+    command: python scripts/import_feeds.py --continuous
+    environment:
+      DATABASE_URL: postgresql://threatscope:threatscope_secure_password@postgres:5432/threatscope
+      REDIS_URL: redis://redis:6379/0
+      ABUSEIPDB_API_KEY: ${ABUSEIPDB_API_KEY}
+      ALIENVAULT_OTX_API_KEY: ${ALIENVAULT_OTX_API_KEY}
+      URLHAUS_API_KEY: ${URLHAUS_API_KEY}
+      PHISHTANK_API_KEY: ${PHISHTANK_API_KEY}
+    volumes:
+      - ./src:/app/src
+      - ./data:/app/data
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  default:
+    name: threatscope-network

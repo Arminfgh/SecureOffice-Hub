@@ -1,0 +1,122 @@
+[
+  {
+    "source_id": "file_hash_0000",
+    "target_id": "ip_address_0001",
+    "relation_type": "communicates_with",
+    "confidence": 0.71
+  },
+  {
+    "source_id": "ip_address_0001",
+    "target_id": "ip_address_0002",
+    "relation_type": "related_to",
+    "confidence": 0.88
+  },
+  {
+    "source_id": "ip_address_0002",
+    "target_id": "ip_address_0003",
+    "relation_type": "related_to",
+    "confidence": 0.72
+  },
+  {
+    "source_id": "ip_address_0003",
+    "target_id": "url_0004",
+    "relation_type": "related_to",
+    "confidence": 0.98
+  },
+  {
+    "source_id": "url_0004",
+    "target_id": "file_hash_0005",
+    "relation_type": "drops",
+    "confidence": 0.77
+  },
+  {
+    "source_id": "file_hash_0005",
+    "target_id": "file_hash_0006",
+    "relation_type": "related_to",
+    "confidence": 0.8
+  },
+  {
+    "source_id": "file_hash_0006",
+    "target_id": "ip_address_0007",
+    "relation_type": "communicates_with",
+    "confidence": 0.78
+  },
+  {
+    "source_id": "ip_address_0007",
+    "target_id": "ip_address_0008",
+    "relation_type": "related_to",
+    "confidence": 0.85
+  },
+  {
+    "source_id": "ip_address_0008",
+    "target_id": "ip_address_0009",
+    "relation_type": "related_to",
+    "confidence": 0.72
+  },
+  {
+    "source_id": "ip_address_0009",
+    "target_id": "url_0010",
+    "relation_type": "related_to",
+    "confidence": 0.87
+  },
+  {
+    "source_id": "url_0010",
+    "target_id": "file_hash_0011",
+    "relation_type": "drops",
+    "confidence": 0.95
+  },
+  {
+    "source_id": "file_hash_0011",
+    "target_id": "file_hash_0012",
+    "relation_type": "related_to",
+    "confidence": 0.84
+  },
+  {
+    "source_id": "file_hash_0012",
+    "target_id": "url_0013",
+    "relation_type": "related_to",
+    "confidence": 0.82
+  },
+  {
+    "source_id": "url_0013",
+    "target_id": "domain_0014",
+    "relation_type": "related_to",
+    "confidence": 0.91
+  },
+  {
+    "source_id": "domain_0014",
+    "target_id": "url_0015",
+    "relation_type": "contains",
+    "confidence": 0.9
+  },
+  {
+    "source_id": "url_0015",
+    "target_id": "url_0016",
+    "relation_type": "related_to",
+    "confidence": 0.96
+  },
+  {
+    "source_id": "url_0016",
+    "target_id": "url_0017",
+    "relation_type": "related_to",
+    "confidence": 0.88
+  },
+  {
+    "source_id": "url_0017",
+    "target_id": "ip_address_0018",
+    "relation_type": "related_to",
+    "confidence": 0.83
+  },
+  {
+    "source_id": "ip_address_0018",
+    "target_id": "ip_address_0019",
+    "relation_type": "related_to",
+    "confidence": 0.77
+  },
+  {
+    "source_id": "ip_address_0019",
+    "target_id": "domain_0020",
+    "relation_type": "hosts",
+    "confidence": 0.73
+  }
+]

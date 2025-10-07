@@ -1,0 +1,45 @@
+[
+  {
+    "campaign_id": "campaign_000",
+    "name": "Operation Dark Web",
+    "threat_actor": "APT28",
+    "attack_pattern": "Spear Phishing + Malware",
+    "total_iocs": 178,
+    "first_seen": "2025-09-10T02:22:05.068578",
+    "is_active": true,
+    "affected_sectors": [
+      "Healthcare",
+      "Finance",
+      "Technology",
+      "Retail"
+    ]
+  },
+  {
+    "campaign_id": "campaign_001",
+    "name": "PayPal Phishing Wave",
+    "threat_actor": "FIN7",
+    "attack_pattern": "Spear Phishing + Malware",
+    "total_iocs": 51,
+    "first_seen": "2025-09-27T02:22:05.068578",
+    "is_active": false,
+    "affected_sectors": [
+      "Technology",
+      "Healthcare",
+      "Retail"
+    ]
+  },
+  {
+    "campaign_id": "campaign_002",
+    "name": "Banking Trojan Campaign",
+    "threat_actor": "APT28",
+    "attack_pattern": "Spear Phishing + Malware",
+    "total_iocs": 121,
+    "first_seen": "2025-09-09T02:22:05.068578",
+    "is_active": true,
+    "affected_sectors": [
+      "Healthcare",
+      "Technology",
+      "Finance"
+    ]
+  }
+]
