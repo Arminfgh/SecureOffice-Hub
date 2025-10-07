@@ -192,7 +192,7 @@ This project is licensed under the MIT License - see [LICENSE] file for details.
 ## 📧 Contact
 
 - **Author**: Armin Foroughi
-- **Email**: arfgh2002@gmail.com(https://github.com/yourusername)
+- **Email**: arfgh2002@gmail.com
 
 ---
 
